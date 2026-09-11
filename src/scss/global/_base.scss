@@ -1,0 +1,25 @@
+body {
+	font-family: var(--font-family);
+	font-size: 16px;
+}
+
+.container {
+	max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+	margin-inline: auto;
+	padding-inline: var(--container-padding-x);
+}
+
+.btn {
+	border-radius: 4px;
+	padding: 12px 24px;
+	width: 157px;
+	height: 44px;
+	background-color: var(--green-color);
+	transition: var(--transition);
+
+	&:hover {
+		outline: 1px solid #1a3e3e;
+		background-color: var(--primary-color);
+		color: var(--green-color);
+	}
+}
