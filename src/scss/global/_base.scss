@@ -16,6 +16,10 @@ body.no-scroll {
 }
 
 .btn {
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border-radius: 0.25rem;
 	padding: 0.75rem 1.5rem;
 	min-width: 9.8125rem;
@@ -26,10 +30,33 @@ body.no-scroll {
 	background-color: var(--green-color);
 	transition: var(--transition);
 	color: var(--primary-color);
+	font-weight: 600;
+	line-height: 125%;
 
 	&:hover {
 		outline: 0.0625rem solid #1a3e3e;
 		background-color: var(--primary-color);
 		color: var(--green-color);
 	}
+}
+
+.title {
+	font-weight: 800;
+	font-size: clamp(1.5rem, 2vw, 2rem);
+	line-height: 120%;
+	color: var(--black-color);
+}
+
+.subtitle {
+	font-weight: 400;
+	font-size: clamp(1rem, 0.78rem + 1vw, 1.5rem);
+	line-height: 83%;
+	color: var(--accent-color);
+}
+
+.text {
+	font-weight: 400;
+	font-size: clamp(1rem, 1.5vw, 1.125rem);
+	line-height: 150%;
+	color: var(--black-color);
 }

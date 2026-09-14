@@ -77,57 +77,277 @@
 		<main class="main">
 			<section class="hero">
 				<div class="container hero__container">
-					<div class="hero__inner">
-						<h1 class="hero__headline">
-							Насладись прогулкой в горах<br />
-							с командой единомышленников
-						</h1>
-						<form class="hero__search search-form" action="#">
-							<div class="search-form__field">
-								<div class="search-form__control">
-									<select
-										class="search-form__select"
-										id="location"
-										name="location"
-									>
-										<option value="" disabled selected>Локация для тура</option>
-										<option value="lhasa">Лхаса</option>
-										<option value="shigatse">Шигадзе</option>
-										<option value="ngari">Нгари</option>
-									</select>
-								</div>
-								<span class="search-form__hint">выберите из списка</span>
+					<h1 class="hero__headline">
+						Насладись прогулкой в горах<br />
+						с командой единомышленников
+					</h1>
+					<form class="hero__search search-form" action="#">
+						<div class="search-form__field">
+							<div class="search-form__control">
+								<select
+									class="search-form__select"
+									id="location"
+									name="location"
+								>
+									<option value="" disabled selected>Локация для тура</option>
+									<option value="lhasa">Лхаса</option>
+									<option value="shigatse">Шигадзе</option>
+									<option value="ngari">Нгари</option>
+								</select>
 							</div>
-							<div class="search-form__field">
-								<div class="search-form__control">
-									<input
-										class="search-form__input"
-										type="date"
-										id="date"
-										name="date"
-									/>
-								</div>
-								<span class="search-form__hint">Укажите диапазон</span>
+							<span class="search-form__hint">выберите из списка</span>
+						</div>
+						<div class="search-form__field">
+							<div class="search-form__control">
+								<input
+									class="search-form__input"
+									type="date"
+									id="date"
+									name="date"
+								/>
 							</div>
-							<div class="search-form__field">
-								<div class="search-form__control">
-									<select
-										class="search-form__select"
-										id="participants"
-										name="participants"
-									>
-										<option value="" disabled selected>Участники</option>
-										<option value="2">4</option>
-										<option value="4">6</option>
-										<option value="6">8</option>
-									</select>
-								</div>
-								<span class="search-form__hint">минимум 4 человека</span>
+							<span class="search-form__hint">Укажите диапазон</span>
+						</div>
+						<div class="search-form__field">
+							<div class="search-form__control">
+								<select
+									class="search-form__select"
+									id="participants"
+									name="participants"
+								>
+									<option value="" disabled selected>Участники</option>
+									<option value="2">4</option>
+									<option value="4">6</option>
+									<option value="6">8</option>
+								</select>
 							</div>
-							<button class="search-form__btn btn">Найти программу</button>
-						</form>
-						<button class="search-form__btn-mobile btn">Найти программу</button>
+							<span class="search-form__hint">минимум 4 человека</span>
+						</div>
+						<button class="search-form__btn btn">Найти программу</button>
+					</form>
+					<button class="search-form__btn-mobile btn">Найти программу</button>
+				</div>
+			</section>
+			<section class="about">
+				<div class="container about__container">
+					<div class="about__collage collage">
+						<img
+							class="collage__img collage__img--back"
+							src="./src/images/mountain.png"
+							alt="Горная вершина в облаках"
+						/>
+						<img
+							class="collage__img collage__img--front"
+							src="./src/images/home-in-mountain.png"
+							alt="Домик в горах"
+						/>
 					</div>
+					<div class="about__content">
+						<p class="about__subtitle subtitle">о нашем походе</p>
+						<h2 class="about__title title">
+							Исследуйте все горные массивы мира вместе с нами
+						</h2>
+						<p class="about__text text">
+							Его корни уходят в один фрагмент классической латыни 45 года н.э.,
+							то есть более двух тысячелетий назад. Ричард МакКлинток, профессор
+							латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из
+							самых странных слов в Lorem Ipsum, "consectetur" и занялся его
+							поисками в классической латинской литературе.
+						</p>
+						<a class="about__btn btn" href="#">Программа тура</a>
+					</div>
+				</div>
+			</section>
+			<section class="program">
+				<div class="container program__container">
+					<div class="program__content">
+						<p class="program__subtitle subtitle">наше предложение</p>
+						<h2 class="program__title title">Лучшие программы для тебя</h2>
+						<p class="program__text text">
+							Его корни уходят в один фрагмент классической латыни 45 года н.э.,
+							то есть более двух тысячелетий назад. Ричард МакКлинток, профессор
+							латыни из колледжа.
+						</p>
+						<div class="program__advantages">
+							<ul class="program__advantages-list">
+								<li class="program__advantages-item">
+									<img src="./src/images/guide.svg" alt="Опытный гид" />
+									<div class="program__advantages-info">
+										<h3 class="program__advantages-title">Опытный гид</h3>
+										<p class="program__advantages-text">
+											Для современного мира базовый вектор развития предполагает
+											независимые способы реализации соответствующих условий
+											активизации.
+										</p>
+									</div>
+								</li>
+								<li class="program__advantages-item">
+									<img src="./src/images/safety.svg" alt="Синий щит" />
+									<div class="program__advantages-info">
+										<h3 class="program__advantages-title">Безопасный поход</h3>
+										<p class="program__advantages-text">
+											Для современного мира базовый вектор развития предполагает
+											независимые способы реализации соответствующих условий
+											активизации.
+										</p>
+									</div>
+								</li>
+								<li class="program__advantages-item">
+									<img
+										src="./src/images/low-price.svg"
+										alt="Ярлык с ценником"
+									/>
+									<div class="program__advantages-info">
+										<h3 class="program__advantages-title">Лояльные цены</h3>
+										<p class="program__advantages-text">
+											Для современного мира базовый вектор развития предполагает
+											независимые способы реализации соответствующих условий
+											активизации.
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<a class="program__btn btn" href="#">Стоимость программ</a>
+					</div>
+					<div class="program__gallery">
+						<ul class="program__gallery-list">
+							<li class="program__gallery-item">
+								<img
+									src="./src/images/hot-spring.png"
+									alt="Рука с напитком на фоне озера"
+								/>
+							</li>
+							<li class="program__gallery-item">
+								<img
+									src="./src/images/canyon.png"
+									alt="человек на фоне каньона"
+								/>
+							</li>
+							<li class="program__gallery-item">
+								<img
+									src="./src/images/snowmobile.png"
+									alt="Снегоход с водителем"
+								/>
+							</li>
+							<li class="program__gallery-item">
+								<img
+									src="./src/images/mountain-trail.png"
+									alt="река на фоне гор"
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="tour">
+				<div class="container tour__container">
+					<p class="tour__subtitle subtitle">по версии отдыхающих</p>
+					<h2 class="tour__title title">Популярные направления</h2>
+
+					<ul class="tour__list">
+						<li class="tour__item card">
+							<div class="card__media">
+								<img
+									class="card__img"
+									src="./src/images/card-image-1.png"
+									alt="Озеро возле гор"
+								/>
+								<div class="card__rating">
+									<img src="./src/images/star.svg" alt="Рейтинг" />
+									<span>4.9</span>
+								</div>
+							</div>
+
+							<div class="card__info">
+								<div class="card__head">
+									<div class="card__head-text">
+										<h3 class="card__title">Озеро возле гор</h3>
+										<p class="card__subtitle">романтическое приключение</p>
+									</div>
+									<span class="card__price">480 $</span>
+								</div>
+
+								<p class="card__text">
+									Его корни уходят в один фрагмент классической латыни 45 года
+									н.э., то есть более двух тысячелетий назад. Ричард МакКлинток,
+									профессор латыни из колледжа Hampden-Sydney, штат Вирджиния,
+									взял одно из самых странных слов в Lorem Ipsum, "consectetur"и
+									занялся его поисками в классической латинской литературе.
+								</p>
+
+								<a class="card__btn btn" href="#">Программа тура</a>
+							</div>
+						</li>
+						<li class="tour__item card">
+							<div class="card__media">
+								<img
+									class="card__img"
+									src="./src/images/card-image-2.png"
+									alt="Озеро возле гор"
+								/>
+								<div class="card__rating">
+									<img src="./src/images/star.svg" alt="Рейтинг" />
+									<span>4.5</span>
+								</div>
+							</div>
+
+							<div class="card__info">
+								<div class="card__head">
+									<div class="card__head-text">
+										<h3 class="card__title">Ночь в горах</h3>
+										<p class="card__subtitle">в компании друзей</p>
+									</div>
+									<span class="card__price">500 $</span>
+								</div>
+
+								<p class="card__text">
+									Его корни уходят в один фрагмент классической латыни 45 года
+									н.э., то есть более двух тысячелетий назад. Ричард МакКлинток,
+									профессор латыни из колледжа Hampden-Sydney, штат Вирджиния,
+									взял одно из самых странных слов в Lorem Ipsum, "consectetur"и
+									занялся его поисками в классической латинской литературе.
+								</p>
+
+								<a class="card__btn btn" href="#">Программа тура</a>
+							</div>
+						</li>
+						<li class="tour__item card">
+							<div class="card__media">
+								<img
+									class="card__img"
+									src="./src/images/card-image-3.png"
+									alt="Озеро возле гор"
+								/>
+								<div class="card__rating">
+									<img src="./src/images/star.svg" alt="Рейтинг" />
+									<span>5.0</span>
+								</div>
+							</div>
+
+							<div class="card__info">
+								<div class="card__head">
+									<div class="card__head-text">
+										<h3 class="card__title">Йога в горах</h3>
+										<p class="card__subtitle">для тех, кто забоится о себе</p>
+									</div>
+									<span class="card__price">230 $</span>
+								</div>
+
+								<p class="card__text">
+									Его корни уходят в один фрагмент классической латыни 45 года
+									н.э., то есть более двух тысячелетий назад. Ричард МакКлинток,
+									профессор латыни из колледжа Hampden-Sydney, штат Вирджиния,
+									взял одно из самых странных слов в Lorem Ipsum, "consectetur"и
+									занялся его поисками в классической латинской литературе.
+								</p>
+
+								<a class="card__btn btn" href="#">Программа тура</a>
+							</div>
+						</li>
+					</ul>
+
+					<a class="tour__btn btn" href="#">Рейтинг направлений</a>
 				</div>
 			</section>
 		</main>
