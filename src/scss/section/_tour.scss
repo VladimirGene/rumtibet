@@ -13,6 +13,10 @@
 
 	&__title {
 		padding-bottom: 3.125rem;
+
+		@media (max-width: 576px) {
+			padding-bottom: 2rem;	
+		}
 	}
 
 	&__list {
@@ -43,6 +47,14 @@
 	max-width: 100%;
 	overflow: hidden;
 	cursor: pointer;
+
+	@media (max-width: 992px) {
+		min-width: calc(100vw - 18.75rem);
+	}
+
+	@media (max-width: 768px) {
+		min-width: calc(100vw - 12.75rem);
+	}
 
 	&:hover {
 		.card__info {
@@ -98,6 +110,19 @@
 		bottom: 0;
 
 		top: 78%;
+
+		@media (max-width: 992px) {
+			top: 86%;
+		}
+
+		@media (max-width: 768px) {
+			top: 85%;
+		}
+
+		@media (max-width: 576px) {
+			top: 77%;
+		}
+
 		border-bottom-right-radius: 2rem;
 		border-bottom-left-radius: 2rem;
 		backdrop-filter: blur(6px);
