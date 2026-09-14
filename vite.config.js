@@ -5,4 +5,5 @@ export default defineConfig({
 		port: 3030,
 		open: true,
 	},
+	base: '/rumtibet/',
 })
