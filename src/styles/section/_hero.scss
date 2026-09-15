@@ -21,9 +21,12 @@
 		text-transform: uppercase;
 		font-family: var(--second-family);
 		font-weight: 700;
-		font-size: clamp(1.5rem, 0.7875rem + 3.17vw, 3.125rem);
+		font-size: 3.125rem;
 		letter-spacing: 0.02em;
 		padding-bottom: 2.5625rem;
+		@media (max-width: 768px) {
+			font-size: 1.5rem;
+		}
 	}
 
 	&__search {
