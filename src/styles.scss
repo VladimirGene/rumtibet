@@ -1,10 +1,10 @@
-@use './scss/global/normalize';
-@use './scss/global/font';
-@use './scss/global/variables';
-@use './scss/global/base';
+@use './styles/global/normalize';
+@use './styles/global/font';
+@use './styles/global/variables';
+@use './styles/global/base';
 
-@use './scss/section/header';
-@use './scss/section/hero';
-@use './scss/section/about';
-@use './scss/section/program';
-@use './scss/section/tour';
+@use './styles/section/header';
+@use './styles/section/hero';
+@use './styles/section/about';
+@use './styles/section/program';
+@use './styles/section/tour';

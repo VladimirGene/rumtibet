@@ -6,10 +6,12 @@ const mobileMenu = document.querySelector('.js-header__list-mobile')
 const linkBtn = document.querySelectorAll('.js-header__link-mobile')
 
 burgerBtn.addEventListener('click', () => {
-	const isOpen = burgerBtn.classList.toggle('active')
+	if (burgerBtn) {
+		const isOpen = burgerBtn.classList.toggle('active')
 
-	mobileMenu.classList.toggle('is-open', isOpen)
-	body.classList.toggle('no-scroll', isOpen)
+		mobileMenu.classList.toggle('is-open', isOpen)
+		body.classList.toggle('no-scroll', isOpen)
+	}
 })
 
 function closeMenu() {
